@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-starter-stellar",
+  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "version": "1.0.0",
+  "author": "Hunter Chang",
+  "dependencies": {
+    "gatsby": "^1.9.235",
+    "gatsby-image": "^1.0.42",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.23",
+    "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-remark-copy-linked-files": "^1.5.30",
+    "gatsby-remark-images": "^1.5.56",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.37",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "lodash": "^4.17.5",
+    "react-scroll-to-element": "^0.2.0",
+    "react-scrollspy": "^3.3.5",
+    "react-waypoint": "^8.0.1"
+  },
+  "homepage": "https://github.com/ChangoMan/gatsby-starter-stellar",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChangoMan/gatsby-starter-stellar.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  }
+}
