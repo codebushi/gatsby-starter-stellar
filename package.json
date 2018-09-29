@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-starter-stellar",
+  "description": "Gatsby Starter - Stellar by HTML5 UP",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
