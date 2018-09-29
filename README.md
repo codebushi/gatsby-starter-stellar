@@ -1,4 +1,4 @@
-# gatsby-starter-stellar
+# gatsby-starter-stellar-v2
 
 **This starter has been updated for Gatsby.js V2.**
 
@@ -14,6 +14,6 @@ http://gatsby-stellar.surge.sh/
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 <br>
-`gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
+`gatsby new gatsby-starter-stellar-v2 https://github.com/codebushi/gatsby-starter-stellar-v2`
 
 Run `gatsby develop` in the terminal to start the dev site.
