@@ -1,9 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
+import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
@@ -27,8 +27,8 @@ class Index extends React.Component {
   render() {
 
     return (
-      <div>
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+      <Layout>
+        <Helmet title="Gatsby Starter - Stellar" />
 
         <Header />
 
@@ -138,23 +138,9 @@ class Index extends React.Component {
 
         </div>
 
-      </div>
+      </Layout>
     )
   }
 }
 
-Index.propTypes = {
-  route: React.PropTypes.object,
-}
-
 export default Index
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

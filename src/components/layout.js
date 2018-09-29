@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import '../assets/scss/main.scss'
 
-import Footer from '../components/Footer'
+import Footer from './Footer'
 
 class Template extends React.Component {
   constructor(props) {
@@ -31,16 +30,12 @@ class Template extends React.Component {
       <div className={`body ${this.state.loading}`}>
         <div id="wrapper">
 
-          {children()}
+          {children}
           <Footer />
         </div>
       </div>
     )
   }
-}
-
-Template.propTypes = {
-  children: React.PropTypes.func
 }
 
 export default Template
