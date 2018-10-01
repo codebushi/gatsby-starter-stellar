@@ -8,7 +8,7 @@ Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. C
 
 ## Preview
 
-http://gatsby-stellar.surge.sh/
+https://gatsby-stellar.surge.sh/
 
 ## Installation
 
