@@ -4,10 +4,9 @@ import logo from '../assets/images/logo.svg';
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <span className="logo"><img src={logo} alt="" /></span>
-        <h1>Stellar</h1>
-        <p>Just another free, fully responsive site template<br />
-        design by <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <span className="logo"><img src={logo} alt="" width="25%" /></span>
+        <h1>CoderDojo東住吉</h1>
+        <h2>子どものプログラミング道場</h2>
     </header>
 )
 

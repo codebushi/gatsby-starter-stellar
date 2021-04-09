@@ -2,7 +2,6 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -26,7 +25,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="CoderDojo Higashi-Sumiyoshi" />
 
         <Header />
 
@@ -37,121 +36,79 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
+          <section id="intro" className="main special">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>コーダー道場って？</h2>
+                  <p>
+                    CoderDojoは 7 ~ 17 才をの子どもたちの楽しくプログラミングをする道場です。<br/>
+                    世界に2,200の道場、日本には228以上の道場があります。<br/>
+                  </p>
+                  <p>
+                    プログラミングが好きな子どもは無料で参加できます。
+                  </p>
                 </header>
-                <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
-                </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
-                      Learn More
-                    </Link>
+                    <a href="https://coderdojo.jp/" className="button special">
+                      もっとくわしく
+                    </a>
                   </li>
                 </ul>
               </div>
-              <span className="image">
-                <img src={pic01} alt="" />
-              </span>
             </div>
           </section>
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>サポートしてもらえる内容</h2>
+              <p>
+                メンターと呼ばれる大人がみんなの「やりたい」をサポートします。
+              </p>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style1 fa-gamepad"></span>
+                <h3><a href="https://scratch.mit.edu/">スクラッチ</a></h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  ゲームやアニメーションを作ろう
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style3 fa-keyboard-o"></span>
+                <h3>プログラミング言語</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Webやスマホでのアプリ制作
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fa-microchip"></span>
+                <h3><a href="https://microbit.org/">micro:bit</a></h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  コンピュータボードで電子工作
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>コーダー道場に参加するには</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                7 歳〜 17 歳までのプログラミング好きな子ども達が参加できます。<br/>
+                子ども達といっしょに楽しみたい大人もメンターとして参加できます。
               </p>
             </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+            <p>
+              不定期開催 (2ヶ月に1回)<br/>
+              当面はオンライン開催の予定
             </p>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
-                    Learn More
+                  <Link to="/generic" className="button special">
+                    さんかページへ(準備中)
                   </Link>
                 </li>
               </ul>
@@ -160,11 +117,9 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>にっき</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                これから書くのでちょっとまってね
               </p>
             </header>
             <footer className="major">
