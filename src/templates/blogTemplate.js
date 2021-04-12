@@ -21,13 +21,12 @@ export default function blogTemplate({
 }
 
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+  query($id: String!) {
+    markdownRemark(id: {eq: $id}) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        slug
         title
+        date(formatString: "YYYY-MM-DD")
       }
     }
   }
