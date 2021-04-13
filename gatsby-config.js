@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "CoderDojo東住吉",
     author: "CoderDojo Higashi-Sumiyoshi",
-    description: "CoderDojo Higashi-Sumiyoshi, Osaka HomePage"
+    description: "CoderDojo Higashi-Sumiyoshi, Osaka HomePage",
+    siteUrl: `https://coderdojo-higashi-sumiyoshi.github.io/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -28,5 +29,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    `gatsby-plugin-feed`,
   ],
 }
