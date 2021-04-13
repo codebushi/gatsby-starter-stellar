@@ -5,22 +5,30 @@
  */
 
 // You can delete this file if you're not using it
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode })
+    actions.createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+}
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-
-  const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
-
   const result = await graphql(`
     {
       allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}
       limit: 1000) {
         nodes {
           id
-          parent {
-            ... on File {
-              name
-              relativeDirectory
-            }
+          fields {
+            slug
           }
         }
       }
@@ -29,16 +37,17 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Handle errors
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    reporter.panicOnBuild(result.errors)
     return
   }
 
   result.data.allMarkdownRemark.nodes.forEach(node => {
     createPage({
-      path: `/posts/${node.parent.relativeDirectory}/${node.parent.name}`,
-      component: blogPostTemplate,
+      path: `/posts${node.fields.slug}`,
+      component: path.resolve(`./src/templates/blogTemplate.js`),
       context: {
-        // additional data can be passed via context
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
         id: node.id,
       },
     })
