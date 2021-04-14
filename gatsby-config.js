@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "CoderDojo東住吉",
     author: "CoderDojo Higashi-Sumiyoshi",
-    description: "CoderDojo Higashi-Sumiyoshi, Osaka HomePage",
+    description: "子どものプログラミング道場",
+    excerpt: "大阪市東住吉区で不定期(隔月)で開催される子ども(小学生～高校生)のプログラミング道場です。",
     siteUrl: `https://coderdojo-higashi-sumiyoshi.github.io/`,
   },
   plugins: [

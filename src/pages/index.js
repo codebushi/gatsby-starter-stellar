@@ -26,8 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO />
-        <Helmet title="CoderDojo Higashi-Sumiyoshi" />
+        <SEO title="ようこそ" />
 
         <Header />
 
