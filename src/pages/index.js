@@ -103,8 +103,8 @@ class Index extends React.Component {
             </header>
             <p>
               不定期開催 (2ヶ月に1回くらい)<br/>
-              開催場所は東田辺周辺を予定してます<br/>
-              ただし当面はオンライン開催(Discord)の予定
+              開催場所は東田辺周辺を予定しています<br/>
+              (感染抑制のため、直近はオンライン開催(Discord)の予定です)
             </p>
             <footer className="major">
               <ul className="actions">
