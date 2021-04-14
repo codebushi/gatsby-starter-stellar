@@ -5,6 +5,7 @@ import { Waypoint } from 'react-waypoint'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import SEO from '../components/SEO'
 
 class Index extends React.Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO />
         <Helmet title="CoderDojo Higashi-Sumiyoshi" />
 
         <Header />
