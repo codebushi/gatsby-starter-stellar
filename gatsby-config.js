@@ -3,7 +3,7 @@ module.exports = {
     title: "CoderDojo東住吉",
     author: "CoderDojo Higashi-Sumiyoshi",
     description: "子どものプログラミング道場",
-    excerpt: "大阪市東住吉区で不定期(隔月)開催している子ども(小学生～高校生)のプログラミング道場です。",
+    excerpt: "大阪市東住吉区で不定期(隔月)開催している、子ども(小学生～高校生)のプログラミング道場です。",
     siteUrl: `https://coderdojo-higashi-sumiyoshi.github.io/`,
   },
   plugins: [
