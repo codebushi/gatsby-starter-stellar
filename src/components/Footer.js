@@ -4,10 +4,10 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>ご質問やお問合せなどはこちら</h2>
+      <h2>ご質問やお問合せ等はこちらから</h2>
       <ul className="actions">
         <li>
-          <a href="https://discord.gg/Txh3GjCJYk" target="_blank" rel="noopener noreferrer" className="button">
+          <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="button">
             Discord
           </a>
         </li>
@@ -19,7 +19,7 @@ const Footer = props => (
           </a>
         </li>
         <li>
-          <a href="https://discord.gg/Txh3GjCJYk" target="_blank" rel="noopener noreferrer" className="icon fa-comment alt">
+          <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="icon fa-comment alt">
             <span className="label">Discord</span>
           </a>
         </li>
