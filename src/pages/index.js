@@ -36,7 +36,7 @@ class Index extends React.Component {
           ]}
         />
 
-        <Header />
+        <Header topPage={true} />
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -127,10 +127,12 @@ class Index extends React.Component {
                     さんかページへ(準備中)
                   </a>
                 </li>
+              </ul>
+              <ul className="actions">
                 <li>
-                  <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="button">
-                    Discord
-                  </a>
+                  <Link to="/posts/2021-04-16_how_to_discord" className="button">
+                    Discordの始め方
+                  </Link>
                 </li>
               </ul>
             </footer>

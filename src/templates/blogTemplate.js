@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Header from '../components/Header'
 import Layout from '../components/layout'
 import SEO from '../components/SEO'
 
@@ -13,6 +14,9 @@ export default function blogTemplate({
         title={frontmatter.title}
         description={excerpt}
       />
+
+      <Header />
+
       <div id="main">
         <section id="content" className="main">
           <h1>{frontmatter.title}</h1>
