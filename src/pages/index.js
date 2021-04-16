@@ -51,7 +51,8 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>コーダー道場って？</h2>
                   <p>
-                    CoderDojoは小学生～高校生の子どもたちが楽しくプログラミングできる道場です。<br/>
+                    CoderDojoは小学生～高校生の子どもたちが<br/>
+                    楽しくプログラミングできる道場です。<br/>
                     世界に2,200の道場、日本には228以上の道場があります。<br/>
                   </p>
                   <p>
@@ -60,7 +61,7 @@ class Index extends React.Component {
                   <h2>CoderDojo東住吉について</h2>
                   <p>
                     大阪市東住吉区を中心に活動しています。<br/>
-                    現地でのイベント開催時は東田辺周辺の予定です。<br/>
+                    現地での道場開催時は東田辺周辺の予定です。<br/>
                     お住まいは限定してませんので、ぜひ気軽に遊びに来て下さい。
                   </p>
                 </header>
