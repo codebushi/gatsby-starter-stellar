@@ -27,7 +27,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <SEO
-          title="ようこそ"
+          title="プログラミングで遊ぼう！"
           meta={[
             {
               name: `google-site-verification`,
@@ -55,7 +55,13 @@ class Index extends React.Component {
                     世界に2,200の道場、日本には228以上の道場があります。<br/>
                   </p>
                   <p>
-                    プログラミングが好きな子どもは無料で参加できます。
+                    プログラミングに興味がある子どもは無料で参加できます。
+                  </p>
+                  <h2>CoderDojo東住吉について</h2>
+                  <p>
+                    大阪市東住吉区を中心に活動しています。<br/>
+                    イベント開催時は東田辺周辺を予定しています。<br/>
+                    お住まいは限定してませんので、ぜひ気軽に遊びに来て下さい。
                   </p>
                 </header>
                 <ul className="actions">
@@ -81,7 +87,7 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-gamepad"></span>
                 <h3><a href="https://scratch.mit.edu/" target="_blank" rel="noopener noreferrer">スクラッチ</a></h3>
                 <p>
-                  ゲームやアニメーションを作ろう
+                  ゲームやアニメをプログラミング
                 </p>
               </li>
               <li>
