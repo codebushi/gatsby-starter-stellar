@@ -29,7 +29,28 @@ module.exports = {
         path: `${__dirname}/content/posts`,
       },
     },
-    `gatsby-transformer-remark`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: `gatsby-remark-emoji`,
+            options: {
+              emojiConversion: `toImage`,
+              ascii: false,
+            },
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-feed`,
   ],
