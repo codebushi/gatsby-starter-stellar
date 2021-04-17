@@ -47,12 +47,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="base"
+     inkscape:label="b"
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline">
@@ -68,35 +68,24 @@
      id="layer6"
      inkscape:label="i"
      style="display:inline">
-    <circle
+    <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1.01778"
        id="path1470-0"
-       cx="256"
-       cy="256"
-       r="244" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer7"
-     inkscape:label="h"
-     style="display:inline">
-    <path
-       style="display:inline;fill:#f4b4cc;fill-opacity:1"
-       id="path1478"
        sodipodi:type="arc"
        sodipodi:cx="256"
        sodipodi:cy="256"
-       sodipodi:rx="256"
-       sodipodi:ry="256"
-       sodipodi:start="4.712389"
-       sodipodi:end="1.5707963"
+       sodipodi:rx="244"
+       sodipodi:ry="244"
+       sodipodi:start="1.5707963"
+       sodipodi:end="4.712389"
        sodipodi:arc-type="slice"
-       d="M 256,0 A 256,256 0 0 1 512,256 256,256 0 0 1 256,512 V 256 Z" />
+       d="M 256,500 A 244,244 0 0 1 44.689803,378 244,244 0 0 1 44.689802,134 244,244 0 0 1 256,12 v 244 z" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="c">
+     inkscape:label="c"
+     style="display:inline">
     <circle
        style="display:inline;fill:#ffffff;fill-opacity:1"
        id="path2685"
@@ -113,16 +102,18 @@
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="p">
+     inkscape:label="p"
+     style="display:inline">
     <path
        d="M 102.37368,256 H 256 V 511.99999 H 102.37368 l 31.87104,-32 -31.87104,-32 31.87104,-32 -31.87104,-32 L 134.24472,352 102.37368,320 134.24472,288 Z"
-       style="fill:#f4b4cc;stroke-width:0.0078125;fill-opacity:1"
+       style="fill:#f4b4cc;fill-opacity:1;stroke-width:0.0078125"
        id="path851" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="n">
+     inkscape:label="n"
+     style="display:inline">
     <path
        d="m 256.12854,198.00001 c -12.70311,0 -22.74315,-4.25809 -30.1201,-12.77422 -7.37696,-8.5163 -11.06544,-20.86344 -11.06544,-37.0414 v -28.28305 c 0,-16.17814 3.67424,-28.539512 11.02269,-37.084152 C 233.31416,74.272391 243.3115,70 255.95775,70 c 12.58925,0 22.58662,4.272391 29.99206,12.817188 7.40531,8.54464 11.10797,20.906012 11.10797,37.084152 v 28.28305 c 0,16.23498 -3.67421,28.59636 -11.02268,37.08415 -7.34845,8.48764 -17.31731,12.73147 -29.90656,12.73147 z m 0,-16.57678 c 6.32314,0 11.1367,-2.47797 14.44069,-7.43388 3.30401,-4.95593 4.95599,-12.6177 4.95599,-22.98526 v -34.09346 c 0,-10.25373 -1.68049,-17.85856 -5.0415,-22.814466 -3.36086,-4.95593 -8.20283,-7.433883 -14.52597,-7.433883 -6.38013,0 -11.23635,2.463711 -14.56872,7.391133 -3.3325,4.927422 -4.99875,12.546486 -4.99875,22.857216 v 34.09346 c 0,10.36756 1.68042,18.02933 5.04128,22.98526 3.36101,4.95591 8.26001,7.43388 14.69698,7.43388 z"
        style="white-space:pre;display:inline;fill:#f4b4cc;fill-opacity:1;stroke-width:0.0078125"
