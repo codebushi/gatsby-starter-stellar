@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'CoderDojo-HigashiSumiyoshi',
+        name: 'CoderDojo-Higashi-Sumiyoshi',
         short_name: 'CoderDojo',
         start_url: '/',
         background_color: '#663399',
@@ -88,7 +88,7 @@ module.exports = {
                 ) {
                   edges {
                     node {
-                      excerpt
+                      excerpt(pruneLength: 160)
                       html
                       fields { slug }
                       frontmatter {
