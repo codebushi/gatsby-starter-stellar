@@ -5,6 +5,7 @@ import { Waypoint } from 'react-waypoint'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import Scroll from '../components/Scroll'
 import SEO from '../components/SEO'
 
 class Index extends React.Component {
@@ -58,18 +59,27 @@ class Index extends React.Component {
                   <p>
                     プログラミングに興味がある子どもは無料で参加できます。
                   </p>
-                  <h2>CoderDojo東住吉について</h2>
-                  <p>
-                    大阪市東住吉区を中心に活動しています。<br/>
-                    現地での道場開催時は東田辺周辺の予定です。<br/>
-                    お住まいは限定してませんので、ぜひ気軽に遊びに来て下さい。
-                  </p>
                 </header>
                 <ul className="actions">
                   <li>
                     <a href="https://coderdojo.jp/" target="_blank" rel="noopener noreferrer" className="button special">
                       もっとくわしく
                     </a>
+                  </li>
+                </ul>
+                <header className="major">
+                  <h2>CoderDojo東住吉について</h2>
+                  <p>
+                    大阪市東住吉区を中心に活動しています。<br/>
+                    現地開催時は東田辺周辺の予定です。<br/>
+                    お住まいは限定してませんので、ぜひ気軽に遊びに来て下さい。
+                  </p>
+                </header>
+                <ul className="actions">
+                  <li>
+                    <Scroll type="id" element="second">
+                        <Link to="#" className="button">さんかするには？</Link>
+                    </Scroll>
                   </li>
                 </ul>
               </div>
