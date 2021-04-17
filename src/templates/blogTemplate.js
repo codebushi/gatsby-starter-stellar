@@ -18,7 +18,7 @@ export default function blogTemplate({
       <Header />
 
       <div id="main">
-        <section id="content" className="main">
+        <section id="content" className="main article">
           <h1>{frontmatter.title}</h1>
           <p>{frontmatter.date}</p>
           <div dangerouslySetInnerHTML={{ __html: html }} />

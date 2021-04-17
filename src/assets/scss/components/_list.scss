@@ -159,6 +159,14 @@
 		}
 	}
 
+	.article {
+		ol,ul {
+			ol,ul,li p {
+				margin: 0;
+			}
+		}
+	}
+
 	dl {
 		margin: 0 0 _size(element-margin) 0;
 
