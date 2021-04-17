@@ -27,15 +27,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO
-          title="プログラミングで遊ぼう！"
-          meta={[
-            {
-              name: `google-site-verification`,
-              content: `lLGvk0Yf-B-VA06uAV7bF-W7HIwYfFZaGPqgnO9nwE4`,
-            },
-          ]}
-        />
+        <SEO title="プログラミングで遊ぼう！" />
 
         <Header topPage={true} />
 
