@@ -133,7 +133,7 @@ class Index extends React.Component {
               </ul>
               <ul className="actions">
                 <li>
-                  <Link to="/posts/2021-04-16_how_to_discord" className="button">
+                  <Link to="/posts/2021-04-16_how_to_start_discord" className="button">
                     Discordの始め方
                   </Link>
                 </li>
