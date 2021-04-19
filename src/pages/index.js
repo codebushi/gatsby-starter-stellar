@@ -151,8 +151,8 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
-                    ブログ
+                  <Link to="/blog" className="button">
+                    にっきをよむ
                   </Link>
                 </li>
               </ul>

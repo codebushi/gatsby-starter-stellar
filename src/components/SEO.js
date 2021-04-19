@@ -93,7 +93,9 @@ function SEO({ title, image, description, meta, keywords }) {
 
 SEO.defaultProps = {
   meta: [],
-  keywords: [],
+  keywords: [
+    `higashisumiyoshi`,
+  ],
 }
 
 SEO.propTypes = {
