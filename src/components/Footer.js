@@ -37,8 +37,8 @@ const Footer = props => (
     </section>
     <p className="copyright">
       &copy; Untitled. Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>.<br/>
-      &copy; CoderDojo Osakasayama / Hommachi.<br/>
-      &copy; CoderDojo Higashi-Sumiyoshi.<br/>
+      &copy; <a href="https://coderdojo-hommachi.github.io/" target="_blank" rel="noopener noreferrer">CoderDojo Osakasayama / Hommachi</a>.<br/>
+      &copy; <a href="https://coderdojo-higashi-sumiyoshi.github.io/" target="_blank" rel="noopener noreferrer">CoderDojo Higashi-Sumiyoshi</a>.<br/>
     </p>
   </footer>
 )
