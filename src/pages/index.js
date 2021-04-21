@@ -60,7 +60,7 @@ class Index extends React.Component {
                   </li>
                 </ul>
                 <header className="major">
-                  <h2>CoderDojo東住吉について</h2>
+                  <h2>"CoderDojo 東住吉"について</h2>
                   <p>
                     大阪市東住吉区を中心に活動しています。<br/>
                     現地開催時は東田辺周辺の予定です。<br/>
