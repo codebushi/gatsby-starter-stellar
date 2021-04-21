@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 import logo from '../assets/images/logo.svg';
 
-const title = "CoderDojo東住吉"
+const title = "CoderDojo 東住吉"
 const subTitle = "子どものプログラミング道場"
 
 function topPageHeader() {
