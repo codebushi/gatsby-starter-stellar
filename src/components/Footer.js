@@ -14,11 +14,6 @@ const Footer = props => (
       </ul>
       <ul className="icons">
         <li>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="icon fa-twitter alt" >
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
           <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="icon fa-comment alt">
             <span className="label">Discord</span>
           </a>
@@ -29,7 +24,7 @@ const Footer = props => (
           </a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer" className="icon fa-envelope alt">
+          <a href="mailto:higashisumiyoshi.jp@coderdojo.com" target="_blank" rel="noopener noreferrer" className="icon fa-envelope alt">
             <span className="label">Mail</span>
           </a>
         </li>
