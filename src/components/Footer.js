@@ -5,17 +5,15 @@ const Footer = props => (
   <footer id="footer">
     <section>
       <h2>ご質問やお問合せ等はこちらから</h2>
-      <ul className="actions">
+      <ul className="icons">
         <li>
           <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="button">
             Discord
           </a>
         </li>
-      </ul>
-      <ul className="icons">
         <li>
-          <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="icon fa-comment alt">
-            <span className="label">Discord</span>
+          <a href="https://coderdojohigashisumiyoshi.doorkeeper.jp/contact" target="_blank" rel="noopener noreferrer" className="icon fa-comment alt">
+            <span className="label">Doorkeeper</span>
           </a>
         </li>
         <li>

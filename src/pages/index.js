@@ -44,7 +44,7 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>コーダー道場って？</h2>
                   <p>
-                    CoderDojoは小学生～高校生の子どもたちが<br/>
+                    CoderDojoは 7才 ～ 17才の子どもたちが<br/>
                     楽しくプログラミングできる道場です。<br/>
                     世界に2,200の道場、日本には228以上の道場があります。<br/>
                   </p>
@@ -54,7 +54,7 @@ class Index extends React.Component {
                 </header>
                 <ul className="actions">
                   <li>
-                    <a href="https://coderdojo.jp/" target="_blank" rel="noopener noreferrer" className="button special">
+                    <a href="https://coderdojo.com" target="_blank" rel="noopener noreferrer" className="button special">
                       もっとくわしく
                     </a>
                   </li>
@@ -114,7 +114,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>コーダー道場に参加するには</h2>
               <p>
-                プログラミングを好きな小学生～高校生までの子どもが参加できます。<br/>
+                プログラミングを好きな 小学生 ～ 高校生 までの子どもが参加できます。<br/>
                 一緒に参加したい大人はメンターやボランティアとして参加可能です。
               </p>
             </header>
@@ -126,8 +126,8 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a href="https://discord.gg/sT6K3bspqz" target="_blank" rel="noopener noreferrer" className="button special">
-                    さんかページへ(準備中)
+                  <a href="https://coderdojohigashisumiyoshi.doorkeeper.jp/events/upcoming" target="_blank" rel="noopener noreferrer" className="button special">
+                    さんかページ
                   </a>
                 </li>
               </ul>
