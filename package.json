@@ -5,6 +5,7 @@
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^3.2.1",
+    "gatsby-plugin-copy-files": "^1.0.4",
     "gatsby-plugin-feed": "^3.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
     "gatsby-plugin-offline": "^4.2.0",

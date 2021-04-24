@@ -29,12 +29,25 @@ module.exports = {
         path: `${__dirname}/content/posts`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "assets",
+        path: `${__dirname}/content/assets`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-copy-files`,
+      options: {
+        source: `${__dirname}/content/assets`,
+        destination: `/assets`,
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,
             options: {

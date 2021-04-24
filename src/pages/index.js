@@ -69,9 +69,9 @@ class Index extends React.Component {
                 </header>
                 <ul className="actions">
                   <li>
-                    <Scroll type="id" element="second">
-                        <Link to="#" className="button">さんかするには？</Link>
-                    </Scroll>
+                      <Link to="/posts/2021-04-24_launch_dojo/" className="button">
+                        最初のにっき
+                      </Link>
                   </li>
                 </ul>
               </div>
