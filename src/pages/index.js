@@ -67,13 +67,6 @@ class Index extends React.Component {
                     お住まいは限定してませんので、ぜひ気軽に遊びに来て下さい。
                   </p>
                 </header>
-                <ul className="actions">
-                  <li>
-                      <Link to="/posts/2021-04-24_launch_dojo/" className="button">
-                        最初のにっき
-                      </Link>
-                  </li>
-                </ul>
               </div>
             </div>
           </section>
@@ -82,7 +75,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>サポートしてもらえる内容</h2>
               <p>
-                メンターと呼ばれる大人がみんなの「つくりたい」をサポートします。
+                メンターと呼ばれる大人たちが みんなの「つくりたい」をサポートします。
               </p>
             </header>
             <ul className="features">
@@ -145,13 +138,13 @@ class Index extends React.Component {
             <header className="major">
               <h2>にっき</h2>
               <p>
-                これから書くのでちょっとまってね
+                イベントの案内や、日記、パソコンの使い方等を書いてます。
               </p>
             </header>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/blog" className="button">
+                  <Link to="/posts" className="button">
                     にっきをよむ
                   </Link>
                 </li>

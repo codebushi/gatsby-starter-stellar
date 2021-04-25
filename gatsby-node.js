@@ -29,6 +29,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           fields {
             slug
           }
+          frontmatter {
+            tags
+          }
         }
       }
     }
@@ -40,7 +43,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
+  let tags = {}
   result.data.allMarkdownRemark.nodes.forEach(node => {
+    node.frontmatter.tags.forEach(tag => {
+      tags[tag] = true
+    })
     createPage({
       path: `/posts${node.fields.slug}`,
       component: path.resolve(`./src/templates/blogTemplate.js`),
@@ -51,4 +58,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
+  for(tag in tags) {
+    createPage({
+      path: `/tag/${tag}`,
+      component: path.resolve(`./src/templates/tagPageTemplate.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        tag: tag,
+      },
+    })
+  }
 }
