@@ -54,13 +54,13 @@ class Index extends React.Component {
                 </header>
                 <ul className="actions">
                   <li>
-                    <a href="https://coderdojo.com" target="_blank" rel="noopener noreferrer" className="button special">
+                    <a href="https://coderdojo.jp/" target="_blank" rel="noopener noreferrer" className="button special">
                       もっとくわしく
                     </a>
                   </li>
                 </ul>
                 <header className="major">
-                  <h2>"CoderDojo 東住吉"について</h2>
+                  <h2>CoderDojo 東住吉 について</h2>
                   <p>
                     大阪市東住吉区を中心に活動しています。<br/>
                     現地開催時は東田辺周辺の予定です。<br/>
@@ -138,7 +138,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>にっき</h2>
               <p>
-                イベントの案内や、日記、パソコンの使い方等を書いてます。
+                案内や日記、パソコンの使い方等を書いてます。
               </p>
             </header>
             <footer className="major">
