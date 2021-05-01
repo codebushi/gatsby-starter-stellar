@@ -10,6 +10,10 @@
 		@include color(invert);
 		border-radius: _size(border-radius-main);
 
+		img {
+			max-width: 100%;
+		}
+
 		> .main {
 			@include padding(5em, 5em);
 			border-top: solid 1px _palette(invert, border);

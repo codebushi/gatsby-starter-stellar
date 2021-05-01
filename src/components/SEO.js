@@ -19,15 +19,14 @@ function SEO({ title, image, description, meta, keywords }) {
             title
             excerpt
             author
-            siteUrl
           }
         }
       }
     `
   )
 
-  const metaTitle = `${title} | ${site.siteMetadata.title}`
-  const metaImage = site.siteMetadata.siteUrl + (image || `/icons/icon-192x192.png`)
+  const metaTitle = title || site.siteMetadata.title
+  const metaImage = image || `/icons/icon-192x192.png`
   const metaDescription = description || site.siteMetadata.excerpt
 
   return (
