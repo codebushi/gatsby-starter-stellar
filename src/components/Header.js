@@ -10,7 +10,7 @@ const subTitle = "子どものプログラミング道場"
 function topPageHeader() {
   return (
     <header id="header" className="alt">
-      <span className="logo"><img src={logo} width="20%" /></span>
+      <span className="logo"><img alt="logo" src={logo} width="20%" /></span>
       <h1>{title}</h1>
       <h2>{subTitle}</h2>
     </header>
@@ -21,7 +21,7 @@ function pageHeader() {
   return (
     <header id="header" className="alt">
       <Link to="/">
-        <h1><img src={logo} width="10%" />{title}</h1>
+        <h1><img alt="logo" src={logo} width="10%" />{title}</h1>
       </Link>
     </header>
   )

@@ -1,12 +1,10 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
-import Scroll from '../components/Scroll'
-import SEO from '../components/SEO'
+import Seo from '../components/SEO'
 
 class Index extends React.Component {
   constructor(props) {
@@ -27,7 +25,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="プログラミングで遊ぼう！" />
+        <Seo title="プログラミングで遊ぼう！" />
 
         <Header topPage={true} />
 

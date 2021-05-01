@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Header from "../components/Header"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 
 export default function BlogIndex({
   data,
@@ -12,7 +12,7 @@ export default function BlogIndex({
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title="にっき"
         keywords={[`blog`]}
       />

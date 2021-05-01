@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Header from '../components/Header'
 import Layout from '../components/layout'
-import SEO from '../components/SEO'
+import Seo from '../components/SEO'
 
 export default function blogTemplate({
   data, // this prop will be injected by the GraphQL query below.
@@ -10,7 +10,7 @@ export default function blogTemplate({
   const { frontmatter, html, excerpt } = data.markdownRemark
   return (
     <Layout>
-      <SEO
+      <Seo
         title={frontmatter.title}
         description={excerpt}
       />
