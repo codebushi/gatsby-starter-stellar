@@ -78,7 +78,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>サポートしてもらえる内容</h2>
               <p>
-                んなの「つくりたい」をサポートします。
+                みんなの「つくりたい」をサポートします。
               </p>
             </header>
             <ul className="features">
@@ -117,25 +117,22 @@ class Index extends React.Component {
                 また一緒に活動してくれるボランティアも募集中です！<br/>
               </p>
             </header>
-            <p>
-              不定期開催 (2ヶ月に1回くらい)<br/>
-              開催場所は東田辺周辺を予定しています<br/>
-              ※感染抑制のため、直近はオンライン開催(Discord)の予定です
-            </p>
             <footer className="major">
               <ul className="actions">
                 <li>
+                  不定期開催 (2ヶ月に1回くらい)<br/>
+                  開催場所は東田辺周辺を予定しています<br/>
                   <a href="https://coderdojohigashisumiyoshi.doorkeeper.jp/events/upcoming" target="_blank" rel="noopener noreferrer" className="button special">
                     さんかページ
                   </a>
                 </li>
               </ul>
               <ul className="actions">
-                <li>
-                  <Link to="/posts/how_to_start_discord/" className="button">
-                    Discordの始め方
-                  </Link>
-                </li>
+                  ※感染抑制のため、直近はオンライン開催(Zoom)の予定です。<br/>
+                  Zoomの使い方はこちらの資料をご確認下さい。<br/>
+                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vTuTnuBEH8X6Dyw6KrfuCkH2yeJA0_90_OkCddDAgCcChxMOfOOMReNixLVmIBkItkLKJXEG9b8hoCp/pub?loop=false&slide=id.p" target="_blank" rel="noopener noreferrer" className="button special">
+                    Zoomの使い方
+                  </a>
               </ul>
             </footer>
           </section>
