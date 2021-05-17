@@ -45,18 +45,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   let tags = {}
   result.data.allMarkdownRemark.nodes.forEach(node => {
-    node.frontmatter.tags.forEach(tag => {
-      tags[tag] = true
-    })
-    createPage({
-      path: `/posts${node.fields.slug}`,
-      component: path.resolve(`./src/templates/blogTemplate.js`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        id: node.id,
-      },
-    })
+    if (node.frontmatter.tags) {
+      node.frontmatter.tags.forEach(tag => {
+        tags[tag] = true
+      })
+      createPage({
+        path: `/posts${node.fields.slug}`,
+        component: path.resolve(`./src/templates/blogTemplate.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          id: node.id,
+        },
+      })
+    }
   })
   for(tag in tags) {
     createPage({

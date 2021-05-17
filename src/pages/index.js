@@ -147,7 +147,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/posts" className="button">
+                  <Link to="/tag/blog" className="button">
                     にっきをよむ
                   </Link>
                 </li>
