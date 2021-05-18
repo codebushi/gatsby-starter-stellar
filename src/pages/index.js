@@ -122,7 +122,7 @@ class Index extends React.Component {
                 <li>
                   不定期開催 (2ヶ月に1回くらい)<br/>
                   開催場所は東田辺周辺を予定しています<br/>
-                  <a href="https://coderdojohigashisumiyoshi.doorkeeper.jp/events/upcoming" target="_blank" rel="noopener noreferrer" className="button special">
+                  <a href="https://cd-hisumi.doorkeeper.jp/events/upcoming" target="_blank" rel="noopener noreferrer" className="button special">
                     さんかページ
                   </a>
                 </li>
