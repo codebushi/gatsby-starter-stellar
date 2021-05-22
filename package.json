@@ -38,7 +38,7 @@
     "format": "prettier --write '**/*.js'",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gh-pages -d public -r git@github.com:coderdojo-higashi-sumiyoshi/coderdojo-higashi-sumiyoshi.github.io.git",
+    "deploy": "gh-pages -d public -r git@github.com:cd-hisumi/cd-hisumi.github.io.git",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

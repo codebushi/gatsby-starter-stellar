@@ -100,30 +100,33 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
-                })
+              let posts = []
+              allMarkdownRemark.nodes.forEach(node => {
+                if (node.frontmatter.tags) {
+                  posts.push(Object.assign({}, node.frontmatter, {
+                      description: node.excerpt,
+                      url: site.siteMetadata.siteUrl + `/posts${node.fields.slug}`,
+                      guid: site.siteMetadata.siteUrl + `/posts${node.fields.slug}`,
+                      custom_elements: [{ "content:encoded": node.html }],
+                    })
+                  )
+                }
               })
+              return posts
             },
             query: `
               {
                 allMarkdownRemark(
                   sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
-                  edges {
-                    node {
-                      excerpt(pruneLength: 160)
-                      html
-                      fields { slug }
-                      frontmatter {
-                        title
-                        date
-                      }
+                  nodes {
+                    excerpt(pruneLength: 160)
+                    html
+                    fields { slug }
+                    frontmatter {
+                      title
+                      date
+                      tags
                     }
                   }
                 }
@@ -134,8 +137,6 @@ module.exports = {
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;
             // if not provided or `undefined`, all pages will have feed reference inserted
-            match: "^/posts/",
-            // optional configuration to specify external rss feed, such as feedburner
           },
         ],
       },
