@@ -94,6 +94,9 @@ SEO.defaultProps = {
   meta: [],
   keywords: [
     `higashisumiyoshi`,
+    `higashi-sumiyoshi`,
+    `hisumi`,
+    `ひすみ`,
   ],
 }
 
