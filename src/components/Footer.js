@@ -28,6 +28,11 @@ const Footer = props => {
             </a>
           </li>
           <li>
+            <a href={`https://twitter.com/cd_hisumi`} target="_blank" rel="noopener noreferrer" className="icon fa-twitter alt">
+              <span className="label">Twitter</span>
+            </a>
+          </li>
+          <li>
             <a href={`https://${subDomain}.doorkeeper.jp/contact`} target="_blank" rel="noopener noreferrer" className="icon fa-comment alt">
               <span className="label">Doorkeeper</span>
             </a>
