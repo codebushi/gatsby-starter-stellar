@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^3.2.1",
+    "gatsby": "^3.5.1",
+    "gatsby-plugin-canonical-urls": "^3.5.0",
     "gatsby-plugin-copy-files": "^1.0.4",
     "gatsby-plugin-feed": "^3.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
@@ -13,20 +14,20 @@
     "gatsby-plugin-robots-txt": "^1.5.5",
     "gatsby-plugin-sass": "^4.2.0",
     "gatsby-plugin-sharp": "^3.3.0",
-    "gatsby-plugin-sitemap": "^3.2.0",
+    "gatsby-plugin-sitemap": "^4.1.0",
     "gatsby-remark-emoji": "0.0.3",
     "gatsby-remark-images": "^5.0.0",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-source-filesystem": "^3.2.0",
-    "gatsby-transformer-remark": "^3.2.0",
+    "gatsby-transformer-remark": "^4.2.0",
     "gh-pages": "^3.1.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.4.3",
-    "react-waypoint": "^9.0.3"
+    "react-waypoint": "^10.1.0"
   },
   "keywords": [
     "gatsby"

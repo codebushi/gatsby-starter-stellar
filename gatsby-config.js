@@ -1,3 +1,4 @@
+let siteUrl = `https://cd-hisumi.github.io/`
 module.exports = {
   flags: {
     FAST_DEV: true,
@@ -11,7 +12,7 @@ module.exports = {
     author: "CoderDojo Higashi-Sumiyoshi",
     description: "子どものプログラミング道場",
     excerpt: "大阪市東住吉区で不定期(隔月)開催している、子ども(小学生～高校生)のプログラミング道場です。",
-    siteUrl: `https://cd-hisumi.github.io`,
+    siteUrl: siteUrl,
     subDomain: `cd-hisumi`,
   },
   plugins: [
@@ -139,6 +140,12 @@ module.exports = {
             // if not provided or `undefined`, all pages will have feed reference inserted
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: siteUrl,
       },
     },
   ],
