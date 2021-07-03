@@ -8,10 +8,12 @@ export default function blogTemplate({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { frontmatter, html, excerpt } = data.markdownRemark
+  let image = frontmatter.image || `/icons/icon-192x192.png`
   return (
     <Layout>
       <Seo
         title={frontmatter.title}
+        image={image}
         description={excerpt}
       />
 
@@ -35,6 +37,7 @@ export const query = graphql`
       excerpt(pruneLength: 160)
       frontmatter {
         title
+        image
         date(formatString: "YYYY-MM-DD")
       }
     }
