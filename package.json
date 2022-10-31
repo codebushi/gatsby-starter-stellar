@@ -4,18 +4,18 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^2.19.32",
-    "gatsby-plugin-manifest": "^2.2.44",
-    "gatsby-plugin-offline": "^3.0.37",
-    "gatsby-plugin-react-helmet": "^3.1.23",
-    "gatsby-plugin-sass": "^2.1.30",
-    "node-sass": "^4.13.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1",
+    "gatsby": "^4.24.5",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-offline": "^5.24.0",
+    "gatsby-plugin-react-helmet": "^5.24.0",
+    "gatsby-plugin-sass": "^5.24.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-scroll-to-element": "^0.2.0",
-    "react-scrollspy": "^3.4.2",
-    "react-waypoint": "^9.0.2"
+    "react-scrollspy": "^3.4.3",
+    "react-waypoint": "^10.3.0",
+    "sass": "^1.55.0"
   },
   "keywords": [
     "gatsby"
